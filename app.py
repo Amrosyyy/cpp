@@ -12,7 +12,7 @@ def load_data():
     
 @st.cache_resource
 def load_model():
-    file_id = "125Nq2CnI6gDkMZuMThfSDx1_nUrspWX6"
+    file_id = "10Ughgxue4idcytSqg-AjDKZGMCo1kP0n"
     url = f"https://drive.google.com/uc?id={file_id}"
     try:
         with tempfile.NamedTemporaryFile(delete=False) as tmp_file:
